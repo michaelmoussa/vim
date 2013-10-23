@@ -26,6 +26,7 @@ set tabstop=4      " Number of spaces that a <Tab> in the file counts for.
 set ttyfast        " Indicates a fast terminal connection.
 
 set listchars=tab:▸\ ,eol:¬ " Use the same symbols as TextMate for tabstops and EOLs
+set pastetoggle=<F2>        " Specifies the key sequence that toggles the 'paste' option.
 
 " Enable scrollwheel
 if has('mouse')
