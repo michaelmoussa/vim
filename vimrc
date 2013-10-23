@@ -10,6 +10,7 @@ set autoindent     " Copy indent from current line when starting a new line
 set encoding=utf-8 " Sets the character encoding used inside Vim.
 set expandtab      " Use the appropriate number of spaces to insert a <Tab>.
 set hlsearch       " When there is a previous search pattern, highlight all its matches.
+set ignorecase     " Ignore the case of normal letters when searching.
 set incsearch      " While typing a search command, show where the pattern, as it was typed so far, matches.
 set nocompatible   " Make Vim behave in a more useful way
 set number         " Print the line number in front of each line
@@ -18,6 +19,8 @@ set ruler          " Show the line and column number of the cursor position, sep
 set shiftround     " Round indent to multiple of 'shiftwidth'.
 set shiftwidth=4   " Number of spaces to use for each step of (auto)indent.
 set showcmd        " Show (partial) command in the last line of the screen.
+set showmatch      " When a bracket is inserted, briefly jump to the matching one.
+set smartcase      " Override the 'ignorecase' option if the search pattern contains upper case characters.
 set smartindent    " Do smart autoindenting when starting a new line.
 set smarttab       " When on, a <Tab> in front of a line inserts blanks according to 'shiftwidth'.
 set softtabstop=4  " Number of spaces that a <Tab> counts for while performing editing
