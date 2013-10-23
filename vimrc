@@ -6,6 +6,7 @@ filetype plugin indent on
 set background=light
 silent! colorscheme default
 
+set autoindent     " Copy indent from current line when starting a new line
 set encoding=utf-8 " Sets the character encoding used inside Vim.
 set expandtab      " Use the appropriate number of spaces to insert a <Tab>.
 set hlsearch       " When there is a previous search pattern, highlight all its matches.
@@ -14,8 +15,11 @@ set nocompatible   " Make Vim behave in a more useful way
 set number         " Print the line number in front of each line
 set relativenumber " Show the line number relative to the line with the cursor in front of each line.
 set ruler          " Show the line and column number of the cursor position, separated by a comma
+set shiftround     " Round indent to multiple of 'shiftwidth'.
 set shiftwidth=4   " Number of spaces to use for each step of (auto)indent.
 set showcmd        " Show (partial) command in the last line of the screen.
+set smartindent    " Do smart autoindenting when starting a new line.
+set smarttab       " When on, a <Tab> in front of a line inserts blanks according to 'shiftwidth'.
 set softtabstop=4  " Number of spaces that a <Tab> counts for while performing editing
 	               " operations, like inserting a <Tab> or using <BS>.
 set tabstop=4      " Number of spaces that a <Tab> in the file counts for.
