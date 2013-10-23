@@ -38,3 +38,6 @@ set pastetoggle=<F2>        " Specifies the key sequence that toggles the 'paste
 if has('mouse')
     set mouse=nv
 endif
+
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
