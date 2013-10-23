@@ -12,10 +12,13 @@ set expandtab      " Use the appropriate number of spaces to insert a <Tab>.
 set hlsearch       " When there is a previous search pattern, highlight all its matches.
 set ignorecase     " Ignore the case of normal letters when searching.
 set incsearch      " While typing a search command, show where the pattern, as it was typed so far, matches.
+set laststatus=2   " Always give the last window a status line
 set nocompatible   " Make Vim behave in a more useful way
 set number         " Print the line number in front of each line
 set relativenumber " Show the line number relative to the line with the cursor in front of each line.
 set ruler          " Show the line and column number of the cursor position, separated by a comma
+set scrolljump=5   " Minimal number of lines to scroll when the cursor gets off the screen.
+set scrolloff=5    " Minimal number of screen lines to keep above and below the cursor.
 set shiftround     " Round indent to multiple of 'shiftwidth'.
 set shiftwidth=4   " Number of spaces to use for each step of (auto)indent.
 set showcmd        " Show (partial) command in the last line of the screen.
@@ -35,4 +38,3 @@ set pastetoggle=<F2>        " Specifies the key sequence that toggles the 'paste
 if has('mouse')
     set mouse=nv
 endif
-
