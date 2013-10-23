@@ -12,6 +12,7 @@ set hlsearch       " When there is a previous search pattern, highlight all its 
 set incsearch      " While typing a search command, show where the pattern, as it was typed so far, matches.
 set nocompatible   " Make Vim behave in a more useful way
 set number         " Print the line number in front of each line
+set relativenumber " Show the line number relative to the line with the cursor in front of each line.
 set ruler          " Show the line and column number of the cursor position, separated by a comma
 set shiftwidth=4   " Number of spaces to use for each step of (auto)indent.
 set showcmd        " Show (partial) command in the last line of the screen.
