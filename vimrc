@@ -9,12 +9,14 @@ set background=light
 silent! colorscheme default
 
 " Editor misc
-set hlsearch     " When there is a previous search pattern, highlight all its matches.
-set incsearch    " While typing a search command, show where the pattern, as it was typed so far, matches.
-set nocompatible " Make Vim behave in a more useful way
-set number       " Print the line number in front of each line
-set ruler        " Show the line and column number of the cursor position, separated by a comma
-set showcmd      " Show (partial) command in the last line of the screen.
+set encoding=utf-8 " Sets the character encoding used inside Vim.
+set hlsearch       " When there is a previous search pattern, highlight all its matches.
+set incsearch      " While typing a search command, show where the pattern, as it was typed so far, matches.
+set nocompatible   " Make Vim behave in a more useful way
+set number         " Print the line number in front of each line
+set ruler          " Show the line and column number of the cursor position, separated by a comma
+set showcmd        " Show (partial) command in the last line of the screen.
+set ttyfast        " Indicates a fast terminal connection.
 
 " Whitespace
 set tabstop=4     " Number of spaces that a <Tab> in the file counts for.
