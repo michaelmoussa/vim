@@ -15,6 +15,7 @@ set incsearch      " While typing a search command, show where the pattern, as i
 set laststatus=2   " Always give the last window a status line
 set nocompatible   " Make Vim behave in a more useful way
 set number         " Print the line number in front of each line
+set nrformats=     " Defaults to decimal mode for <C-a> / <C-x>
 set relativenumber " Show the line number relative to the line with the cursor in front of each line.
 set ruler          " Show the line and column number of the cursor position, separated by a comma
 set scrolljump=5   " Minimal number of lines to scroll when the cursor gets off the screen.
