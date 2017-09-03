@@ -34,6 +34,8 @@ set ttyfast        " Indicates a fast terminal connection.
 set listchars=tab:▸\ ,eol:¬ " Use the same symbols as TextMate for tabstops and EOLs
 set pastetoggle=<F2>        " Specifies the key sequence that toggles the 'paste' option.
 
+set backspace=indent,eol,start " Make backspace not be dumb.
+
 " Enable scrollwheel
 if has('mouse')
     set mouse=nv
