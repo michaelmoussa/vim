@@ -6,6 +6,9 @@ filetype plugin indent on
 set background=light
 silent! colorscheme default
 
+set cursorline
+hi CursorLine cterm=bold
+
 set autoindent     " Copy indent from current line when starting a new line
 set encoding=utf-8 " Sets the character encoding used inside Vim.
 set expandtab      " Use the appropriate number of spaces to insert a <Tab>.
